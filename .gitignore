@@ -1,0 +1,7 @@
+.vscode
+book.pdf
+
+# vim
+*~
+*.swp
+*.swo
