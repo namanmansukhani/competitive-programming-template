@@ -1,2 +1,2 @@
-g++-11 $1
+make FILE=$1
 ./a.out < input.txt

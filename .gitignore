@@ -1,6 +1,8 @@
 .vscode
 book.pdf
 
+a.out
+
 # vim
 *~
 *.swp
