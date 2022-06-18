@@ -3,10 +3,15 @@
 #define mp make_pair
 #define pb push_back
 #define vi vector<int>
+#define pii pair<int, int>
 #define mod 1000000007
 #define inf 100000000000
 #define fr first
 #define sc second
+
+#define rep(i,n) for (int i = 0;i < n;i++)
+#define REP(i,k,n) for (int i = k;i < n;i++)
+#define bw(i,l,r) (i >= l && i < r)
 
 using namespace std;
 

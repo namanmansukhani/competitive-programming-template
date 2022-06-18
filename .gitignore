@@ -1,9 +1,17 @@
 .vscode
 book.pdf
 
+*.cpp
+*.c
+!graph_implementations.cpp
+!template.cpp
+input.txt
+
 a.out
 
 # vim
 *~
 *.swp
 *.swo
+
+*.py

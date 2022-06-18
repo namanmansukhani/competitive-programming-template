@@ -1,4 +1,11 @@
-# inspired by cses handbook and cp-algorithms.com
+//inspired by cses handbook and cp-algorithms.com
+
+void dfs(int v) {
+	visited[v] = true;
+	for (auto u: adj[v]) {
+		if (!visited[u]) dfs(u);
+	}
+}
 
 void bfs(int source){
 	queue<int> q; q.push(source);
