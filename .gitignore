@@ -7,11 +7,12 @@ book.pdf
 !template.cpp
 input.txt
 
+*.py
+!template.py
+
 a.out
 
 # vim
 *~
 *.swp
 *.swo
-
-*.py
