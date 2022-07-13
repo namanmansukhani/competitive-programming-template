@@ -15,3 +15,5 @@ Script `new` copies the template into a new file.
 ```./new file_name``` 
 
 Here, `new` creates a new file `file_name` with the contents of `template.cpp`
+
+### Python-like print function inspired by [this gist](https://gist.github.com/ilebedie/f006674098a1adaab731).

@@ -4,6 +4,7 @@
 #define pb push_back
 #define vi vector<int>
 #define pii pair<int, int>
+#define mii map<int, int>
 #define mod 1000000007
 #define inf 100000000000
 #define fr first
@@ -16,6 +17,15 @@
 using namespace std;
 
 #define MAXN 100000
+
+void print(){cout<<'\n';}
+void print(bool b) {}
+template<typename T, typename ...TAIL>
+void print(const T &t, TAIL... tail)
+{
+    cout<<t<<' ';
+    print(tail...);
+}
 
 signed main() {
     ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
