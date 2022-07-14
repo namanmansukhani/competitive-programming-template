@@ -18,8 +18,8 @@ using namespace std;
 
 #define MAXN 100000
 
-void print(){cout<<'\n';}
-void print(bool b) {}
+void print(){cout<<endl;}
+void print(bool endline) {if(endline)cout<<endl;}
 template<typename T, typename ...TAIL>
 void print(const T &t, TAIL... tail)
 {
