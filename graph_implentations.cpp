@@ -21,6 +21,7 @@ void bfs(int source){
 		}
 	}
 }
+
 void bellman(int source){
 	dis[source] = 0;
 	for(int i=0;i<n-1;i++){
@@ -31,6 +32,7 @@ void bellman(int source){
 		}
 	}
 }
+
 void floyd(int source){
 	for(int i=1;i<=n;i++){
 		for(int j=1;j<=n;j++){
@@ -47,6 +49,7 @@ void floyd(int source){
 		}
 	}
 }
+
 void dijk(int source){
 	priority_queue<int> pq;
 	pq.push(mp(0, source));
