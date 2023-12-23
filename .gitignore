@@ -6,6 +6,7 @@ book.pdf
 *.cpp
 *.c
 !graph_implementations.cpp
+!segtree.cpp
 !template.cpp
 input.txt
 
