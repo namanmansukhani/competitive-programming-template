@@ -32,9 +32,9 @@ void print(const T &t, TAIL... tail)
     print(tail...);
 }
 
-void printl(vi &list) {
-    int n = list.size();
-    rep(i,n) print(list[i], false);
+template<typename T>
+void printl(const T &t) {
+    for (auto val: t) cout<<val<<' ';
     print();
 }
 
